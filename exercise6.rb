@@ -14,3 +14,9 @@ grocery_list = ["carrots", "toilet paper", "apples", "salmon", "rice"]
 display_list(grocery_list)
 
 puts grocery_list.length
+
+if grocery_list.include?("bananas")
+  puts "You need to pick up bananas"
+else
+  puts "You don't need any bananas"
+end
