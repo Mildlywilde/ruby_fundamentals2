@@ -4,6 +4,13 @@ def display_list(list)
   list.each do |item|
     puts "* #{item}"
   end
+  puts ""
 end
 
 display_list(grocery_list)
+
+grocery_list = ["carrots", "toilet paper", "apples", "salmon", "rice"]
+
+display_list(grocery_list)
+
+puts grocery_list.length
