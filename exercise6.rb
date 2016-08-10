@@ -9,7 +9,7 @@ end
 
 display_list(grocery_list)
 
-grocery_list = ["carrots", "toilet paper", "apples", "salmon", "rice"]
+grocery_list << "rice"
 
 display_list(grocery_list)
 
@@ -22,3 +22,7 @@ else
 end
 
 puts grocery_list[1]
+
+grocery_list.delete("salmon")
+
+display_list(grocery_list)
