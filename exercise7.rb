@@ -12,3 +12,5 @@ list_hash(students)
 students[:cohort4] = 43
 
 list_hash(students)
+
+puts students.keys
