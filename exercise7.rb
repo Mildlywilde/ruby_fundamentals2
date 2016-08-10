@@ -22,3 +22,13 @@ end
 students.delete(:cohort2)
 
 list_hash(students)
+
+def total_students(hash)
+  total = 0
+  hash.each do |cohort, number|
+    total += number
+  end
+  return total
+end
+
+puts total_students(students)
