@@ -14,3 +14,7 @@ students[:cohort4] = 43
 list_hash(students)
 
 puts students.keys
+
+students.each do |cohort, number|
+  puts "#{cohort}: #{((number/100.0)*5 + number).to_i}"
+end
