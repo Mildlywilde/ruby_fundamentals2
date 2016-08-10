@@ -18,3 +18,7 @@ puts students.keys
 students.each do |cohort, number|
   puts "#{cohort}: #{((number/100.0)*5 + number).to_i}"
 end
+
+students.delete(:cohort2)
+
+list_hash(students)
