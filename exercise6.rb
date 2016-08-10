@@ -1,7 +1,7 @@
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
 def display_list(list)
-  list.each do |item|
+  list.sort.each do |item|
     puts "* #{item}"
   end
   puts ""
